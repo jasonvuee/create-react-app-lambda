@@ -4,12 +4,12 @@ import Meals from "./components/Meals/Meals";
 
 function App() {
   return (
-    <Fragment>
+    <React.Fragment>
       <Header/>
       <main>
         <Meals/>
       </main>
-    </Fragment>
+    </React.Fragment>
   );
 }
 
